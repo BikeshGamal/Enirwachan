@@ -1,0 +1,24 @@
+<?php
+$server="localhost";
+$user="root";
+$password="";
+$db="signup"; 
+$con=mysqli_connect($server,$user,$password,$db);
+if($con)
+{
+    /*?>
+    <script>
+        confirm("के तपाई जारी राख्न चाहनुहुन्छ?");
+    </script>
+    <?php*/
+}
+else{
+    {
+        ?>
+        <script>
+            alert("ERRR!!!!");
+        </script>
+        <?php
+    }
+}
+?>
